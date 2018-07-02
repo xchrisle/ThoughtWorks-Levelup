@@ -1,0 +1,196 @@
+#home {
+}
+$icon-size: 45px;
+
+#top_icon_id
+{
+  position: absolute;
+  top: 31px;
+  right: 128px;
+  width: $icon-size;
+  height: $icon-size;
+}
+
+#bottom_icon_id
+{
+  position: absolute;
+  top: 203px;
+  right: 128px;
+  width: 45px;
+  height: 45px;
+}
+
+#left_icon_id
+{
+  position: absolute;
+  top: 117px;
+  right: 229px;
+  width: $icon-size;
+  height: $icon-size;
+}
+
+#right_icon_id
+{
+  position: absolute;
+  top: 116px;
+  right: 30px;
+  width: $icon-size;
+  height: $icon-size;
+}
+
+#face_icon_id
+{
+  position: absolute;
+  top: 107px;
+  right: 115px;
+  width: 65px;
+  height: 65px;
+}
+
+////// Navigation
+
+#up_nav_icon_id
+{
+  position: absolute;
+  top: -30px;
+  right: 115px;
+  width: 35px;
+  height: 35px;
+}
+
+#down_nav_icon_id
+{
+  position: absolute;
+  top: 390px;
+  right: 375px;
+  width: 35px;
+  height: 35px;
+}
+
+#left_nav_icon_id
+{
+  position: absolute;
+  top: 255px;
+  right: 505px;
+  width: 35px;
+  height: 35px;
+}
+
+#right_nav_icon_id
+{
+  position: absolute;
+  top: 255px;
+  right: 240px;
+  width: 35px;
+  height: 35px;
+}
+
+////// Address Arrows
+.app_up_nav_icon_id
+{
+  position: absolute;
+  top: -3px;
+  right: 133px;
+  width: 35px;
+  height: 35px;
+  z-index: 3;
+}
+
+.app_down_nav_icon_id
+{
+  position: fixed;
+  top: 369px;
+  right: 404px;
+  width: 35px;
+  height: 35px;
+}
+
+.app_left_nav_icon_id
+{
+  position: absolute;
+  top: 127px;
+  right: 267px;
+  width: 35px;
+  height: 35px;
+}
+
+.app_right_nav_icon_id
+{
+  position: absolute;
+  top: 127px;
+  right: -4px;
+  width: 35px;
+  height: 35px;
+}
+
+.home_right_nav_icon_id
+{
+  position: absolute;
+  top: 133px;
+  right: 9px;
+  width: 20px;
+  height: 20px;
+}
+
+///// Lists
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 30px;
+}
+
+////// Hightlight
+
+// .highlight {
+//   background-color: darkslategray;
+//   background-size: contain;
+// }
+
+.scroll {
+  height: 150px;
+  overflow: scroll;
+}
+
+.center{
+  text-align: center;
+}
+.heading{
+  position: fixed;
+  display: inline;
+  right: 250px;
+}
+.body{
+  float:left;
+}
+
+#foot{
+  position: absolute;
+  top: 274px;
+  height: 15px;
+  width: 75px;
+  right: 113px;
+
+}
+
+.h1Style{
+  color: rgb(236, 122, 35);
+  position: absolute;
+  left: 40px;
+  top: 15px;
+}
+
+.olStyle{
+  color: black;
+  position: absolute;
+  left: 40px;
+  top: 75px;
+}
+
+.address{
+  top: 80px;
+  position: absolute;
+  left: 51px;
+}
